@@ -1,34 +1,44 @@
 import React, { Component } from "react";
-import { MDBNavbar, MDBNavbarBrand,  MDBNavbarToggler, MDBCollapse} from "mdbreact";
+import { Navbar, NavbarBrand,Nav,NavLink} from 'react-bootstrap';
 
 class Entete extends Component{
-    state = {
-        connecte: "false"
-    };
-
     render(){
         return(
-            <nav class="navbar navbar-expand-md bg-dark navbar-dark">
-                <a class="navbar-brand" href="/home">Coronaide</a>
+            <header className="site-navbar site-navbar-target" role="banner">
 
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+        <div className="container">
+          <div className="row align-items-center position-relative">
 
-                <div class="collapse navbar-collapse" id="collapsibleNavbar">
-                    <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="/chat">C'est quoi?</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/account">Comment?</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/login">Support</a>
-                    </li>
-                    </ul>
-                </div>
-            </nav>
+            <div className="col-3 ">
+              <div className="site-logo">
+                <a href="index.html">Barberz</a>
+              </div>
+            </div>
+
+            <div className="col-9  text-right">
+              
+
+              <span className="d-inline-block d-lg-none"><a href="#" className="text-white site-menu-toggle js-menu-toggle py-5 text-white"><span className="icon-menu h3 text-white"></span></a></span>
+
+              
+
+              <nav className="site-navigation text-right ml-auto d-none d-lg-block" role="navigation">
+                <ul className="site-menu main-menu js-clone-nav ml-auto ">
+                  <li className="active"><a href="index.html" className="nav-link">Home</a></li>
+                  <li><a href="services.html" className="nav-link">Services</a></li>
+                  <li><a href="barber-shop.html" className="nav-link">Barber Shop</a></li>
+                  <li><a href="about.html" className="nav-link">About</a></li>
+                  <li><a href="blog.html" className="nav-link">Blog</a></li>
+                  <li><a href="contact.html" className="nav-link">Contact</a></li>
+                </ul>
+              </nav>
+            </div>
+
+            
+          </div>
+        </div>
+
+      </header>
         )
     }
 
