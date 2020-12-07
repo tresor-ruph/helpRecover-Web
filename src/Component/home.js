@@ -49,7 +49,7 @@ class Home extends Component{
 
     <div className="ftco-blocks-cover-1">
       <div className="site-section-cover overlay" data-stellar-background-ratio="0.5" style={{
-    backgroundImage: "url(" + "https://images.pexels.com/photos/34153/pexels-photo.jpg?auto=compress&cs=tinysrgb&h=350" + ")"
+    backgroundImage: "url(" + "https://images.pexels.com/photos/339620/pexels-photo-339620.jpeg?auto=compress&cs=tinysrgb&dpr=6&h=650&w=940" + ")"
     }}>
         <div className="container">
           <div className="row align-items-center justify-content-center text-center">
@@ -68,7 +68,7 @@ class Home extends Component{
         <div className="row">
           <div className="col-lg-6 mb-5 mb-lg-0">
             <div className="img-years">
-              <img src="https://images.pexels.com/photos/34153/pexels-photo.jpg?auto=compress&cs=tinysrgb&h=350" alt="Image" className="img-fluid" />
+              <img src="https://images.pexels.com/photos/3280130/pexels-photo-3280130.jpeg?auto=compress&cs=tinysrgb&dpr=6&h=650&w=940" alt="Image" className="img-fluid" />
               <div className="year">
                 <span>1 <span>year in <br />excellent service</span></span>
               </div>
@@ -199,7 +199,7 @@ class Home extends Component{
 
     
 
-    <div className="site-section section-3" data-stellar-background-ratio="0.5" style={{backgroundImage: 'images/hero_1.jpg' }}>
+    <div className="site-section section-3" data-stellar-background-ratio="0.5" style={{backgroundImage: "url(" + "https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg?auto=compress&cs=tinysrgb&dpr=6&h=650&w=940" + ")" }}>
       <div className="container">
         <div className="row justify-content-center text-center">
           <div className="col-7 text-center mb-5">
