@@ -29,8 +29,6 @@ class Home extends Component{
             </div>
 
             <div className="col-9  text-right">
-              
-
               <span className="d-inline-block d-lg-none"><a href="#" className="text-white site-menu-toggle js-menu-toggle py-5 text-white"><span className="icon-menu h3 text-white"></span></a></span>
 
               
