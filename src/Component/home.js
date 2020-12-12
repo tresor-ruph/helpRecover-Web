@@ -35,8 +35,8 @@ class Home extends Component{
 
               <nav className="site-navigation text-right ml-auto d-none d-lg-block" role="navigation">
                 <ul className="site-menu main-menu js-clone-nav ml-auto ">
-                  <li><a href="about.html" className="nav-link">About</a></li>
-                  <li><a href="#" className="nav-link">Contact</a></li>
+                  <li><a href="#team" className="nav-link">Team</a></li>
+                  <li><a href="#contactUs" className="nav-link">Contact</a></li>
                 </ul>
               </nav>
             </div>
@@ -52,11 +52,11 @@ class Home extends Component{
     backgroundImage: "url(" + "https://images.pexels.com/photos/339620/pexels-photo-339620.jpeg?auto=compress&cs=tinysrgb&dpr=6&h=650&w=940" + ")"
     }}>
         <div className="container">
-          <div className="row align-items-center justify-content-center text-center">
+          <div className="row align-items-center justify-content-left text-left">
             <div className="col-md-7">
               <h1 className="mb-3">Help Recover</h1>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta veritatis in tenetur doloremque, maiores doloribus officia iste. Dolores.</p>
-              <p><a href="#" className="btn btn-primary">Learn More</a></p>
+              <p>Avec la crise sanitaire et les différentes mesures qui ont suivies pour la limitation de celle-ci, de nombreuses personnes se sont retrouvées isolées. La tranche d'âge principalement impactée est celle des personnes âgées qui ne pouvaient plus bénéficier des visites de leurs proches...</p>
+              <p><a href="https://github.com/tresor-ruph/projet-Integration/wiki/Description-du-projet" className="btn btn-primary">En savoir plus</a></p>
             </div>
           </div>
         </div>
@@ -69,27 +69,26 @@ class Home extends Component{
           <div className="col-lg-6 mb-5 mb-lg-0">
             <div className="img-years">
               <img src="https://images.pexels.com/photos/3280130/pexels-photo-3280130.jpeg?auto=compress&cs=tinysrgb&dpr=6&h=650&w=940" alt="Image" className="img-fluid" />
-              <div className="year">
-                <span>1 <span>year in <br />excellent service</span></span>
-              </div>
             </div>
 
           </div>
           <div className="col-lg-5 ml-auto pl-lg-5 text-center">
-            <h3 className="text-red text-center">High Quality services</h3>
-            <p className="mb-5 lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure nesciunt nemo vel earum maxime neque!</p>
+            <h2 className="text-red text-center">Notre soltuion</h2>
+            <p className="mb-5 lead">Nous vous mettons en contact avec des personnes vérifiées de votre entourage qui sont prêts à vous aider.  Ensuite, nous veillons à ce que tous les deux, vous soyez assurés et que tout se passe bien.<br></br>
+            <br></br>En plus de son volet humanitaire, nous vous permettons de garder un contact avec vos êtres chers au moyen de discussions privées et de groupes de discussion.
+            </p>
             <p><a href="#" className="btn btn-primary">Download the App</a></p>
           </div>
         </div>
       </div>
     </div>
     
-    <div className="site-section bg-light">
+    <div id="team" className="site-section bg-light">
       <div className="container">
         <div className="row justify-content-center text-center mb-5 section-2-title">
           <div className="col-md-6">
-            <h3 className="text-center">Meet Our Team</h3>
-            <p className="mb-5 lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure nesciunt nemo vel earum maxime neque!</p>
+            <h2 className="text-center">Membres du projet</h2>
+            <p className="mb-5 lead">Présentation du groupe d'étudiants ayant réalisé ce projet</p>
           </div>
         </div>
         <div className="row align-items-stretch">
@@ -101,9 +100,9 @@ class Home extends Component{
                  className="img-fluid" />
             
               <div className="post-entry-1-contents">
-                <span className="meta">Founder</span>
+                <span className="meta">Product Owner</span>
                 <h2>Patrick Tchoupe</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, sapiente.</p>
+                <p>Ce fût un plaisir de participer à un projet d'une telle envergure</p>
               </div>
             </div>
           </div>
@@ -114,7 +113,7 @@ class Home extends Component{
                  className="img-fluid" />
             
               <div className="post-entry-1-contents">
-                <span className="meta">Founder</span>
+                <span className="meta">Scrum master</span>
                 <h2>Tresor Tekadam</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, sapiente.</p>
               </div>
@@ -128,7 +127,7 @@ class Home extends Component{
                  className="img-fluid" />
             
               <div className="post-entry-1-contents">
-                <span className="meta">Founder</span>
+                <span className="meta">Scrum master</span>
                 <h2>Bilel Bouqouyoue</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, sapiente.</p>
               </div>
@@ -142,7 +141,7 @@ class Home extends Component{
                  className="img-fluid" />
             
               <div className="post-entry-1-contents">
-                <span className="meta">Founder</span>
+                <span className="meta">Team member</span>
                 <h2>Sanglier Joachim</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, sapiente.</p>
               </div>
@@ -156,7 +155,7 @@ class Home extends Component{
                  className="img-fluid" />
             
               <div className="post-entry-1-contents">
-                <span className="meta">Founder</span>
+                <span className="meta">Team member</span>
                 <h2>Degives Florian</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, sapiente.</p>
               </div>
@@ -170,7 +169,7 @@ class Home extends Component{
                  className="img-fluid" />
             
               <div className="post-entry-1-contents">
-                <span className="meta">Founder</span>
+                <span className="meta">Team member</span>
                 <h2>Martin Perdaens</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, sapiente.</p>
               </div>
@@ -184,7 +183,7 @@ class Home extends Component{
                  className="img-fluid" />
             
               <div className="post-entry-1-contents">
-                <span className="meta">Founder</span>
+                <span className="meta">Team member</span>
                 <h2>Sebastien Fantuzzi</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, sapiente.</p>
               </div>
@@ -199,13 +198,17 @@ class Home extends Component{
 
     
 
-    <div className="site-section section-3" data-stellar-background-ratio="0.5" style={{backgroundImage: "url(" + "https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg?auto=compress&cs=tinysrgb&dpr=6&h=650&w=940" + ")" }}>
+    <div className="site-section section-3" id="contactUs" data-stellar-background-ratio="0.5" style={{backgroundImage: "url(" + "https://images.pexels.com/photos/1550337/pexels-photo-1550337.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" + ")" }}>
       <div className="container">
         <div className="row justify-content-center text-center">
           <div className="col-7 text-center mb-5">
-            <h2 className="text-white primary-color-icon text-center">Application sécurisée</h2>
-            <p className="lead text-white mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam quo doloribus, suscipit libero, voluptate aliquam.</p>
-            <p><a href="#" className="btn btn-primary">Contact Us Now</a></p>
+            <h2 className="text-white primary-color-icon text-center">Contactez le service client</h2>
+            <p className="lead text-white mb-5">Nous essayons aussi bien que possible d’être toujours accessible pour tout le monde.<br></br>
+
+<br></br>Nous préférons être contactés par email, afin d’être en mesure de traiter chaque question du mieux possible.<br></br>
+
+N’hésitez pas à nous contacter aux heures de bureau</p>
+            <p><a href="mailto:patricktchoupe@protonmail.com" className="btn btn-primary">Contact Us Now</a></p>
           </div>
         </div>
       </div>
@@ -217,8 +220,8 @@ class Home extends Component{
       <div className="container">
       <div class="row pt-2 mt-2 text-center">
           <p>
-          <a href="#">Politique de confidentialité </a>
-          <a href="#">Termes et conditions</a>
+          <a href="https://github.com/tresor-ruph/projet-Integration/wiki/Aspects-s%C3%A9curit%C3%A9">Politique de confidentialité </a>
+          <a href="https://github.com/tresor-ruph/projet-Integration/wiki/Aspect-juridique">Termes et conditions</a>
           </p>
       </div>
         <div className="row pt-2 mt-2 text-center">
