@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import {FaHandsHelping} from "react-icons/fa";
 
 class Home extends Component{
 
@@ -22,9 +23,9 @@ class Home extends Component{
         <div className="container">
           <div className="row align-items-center position-relative">
 
-            <div className="col-3 ">
+            <div className="col-1">
               <div className="site-logo">
-                <h1>Help Recover</h1>
+                <FaHandsHelping color='rgb(128,255,255)' size='3em' />
               </div>
             </div>
 
@@ -53,9 +54,9 @@ class Home extends Component{
     }}>
         <div className="container">
           <div className="row align-items-center justify-content-left text-left">
-            <div className="col-md-7">
-              <h1 className="mb-3">Help Recover</h1>
-              <p>Avec la crise sanitaire et les différentes mesures qui ont suivies pour la limitation de celle-ci, de nombreuses personnes se sont retrouvées isolées. La tranche d'âge principalement impactée est celle des personnes âgées qui ne pouvaient plus bénéficier des visites de leurs proches...</p>
+            <div className="col-md-7 ">
+              <h1 className="mb-3" style={{ fontFamily: 'revert'}}>HELP RECOVER</h1>
+              <p style={{ fontFamily: 'revert', textAlign: 'justify'}}>Avec la crise sanitaire et les différentes mesures qui ont suivies pour la limitation de celle-ci, de nombreuses personnes se sont retrouvées isolées. La tranche d'âge principalement impactée est celle des personnes âgées qui ne pouvaient plus bénéficier des visites de leurs proches...</p>
               <p><a href="https://github.com/tresor-ruph/projet-Integration/wiki/Description-du-projet" className="btn btn-primary">En savoir plus</a></p>
             </div>
           </div>
@@ -74,7 +75,7 @@ class Home extends Component{
           </div>
           <div className="col-lg-5 ml-auto pl-lg-5 text-center">
             <h2 className="text-red text-center">Notre soltuion</h2>
-            <p className="mb-5 lead">Nous vous mettons en contact avec des personnes vérifiées de votre entourage qui sont prêts à vous aider.  Ensuite, nous veillons à ce que tous les deux, vous soyez assurés et que tout se passe bien.<br></br>
+            <p className="mb-5 lead" style={{ fontFamily: 'revert', textAlign: 'justify'}}>Nous vous mettons en contact avec des personnes vérifiées de votre entourage qui sont prêts à vous aider.  Ensuite, nous veillons à ce que tous les deux, vous soyez assurés et que tout se passe bien.<br></br>
             <br></br>En plus de son volet humanitaire, nous vous permettons de garder un contact avec vos êtres chers au moyen de discussions privées et de groupes de discussion.
             </p>
             <p><a href="#" className="btn btn-primary">Download the App</a></p>
@@ -129,7 +130,7 @@ class Home extends Component{
               <div className="post-entry-1-contents">
                 <span className="meta">Scrum master</span>
                 <h2>Bilel Bouqouyoue</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, sapiente.</p>
+                <p>Ce projet a pour point central l'entraide, le plus important c'est vous !</p>
               </div>
             </div>
           </div>
@@ -203,11 +204,11 @@ class Home extends Component{
         <div className="row justify-content-center text-center">
           <div className="col-7 text-center mb-5">
             <h2 className="text-white primary-color-icon text-center">Contactez le service client</h2>
-            <p className="lead text-white mb-5">Nous essayons aussi bien que possible d’être toujours accessible pour tout le monde.<br></br>
+            <p className="lead text-white mb-5" style={{ fontFamily: 'revert', textAlign: 'justify'}}>Nous essayons aussi bien que possible d’être toujours accessible pour tout le monde.<br></br>
 
 <br></br>Nous préférons être contactés par email, afin d’être en mesure de traiter chaque question du mieux possible.<br></br>
 
-N’hésitez pas à nous contacter aux heures de bureau</p>
+N’hésitez pas à nous contacter aux heures de bureau.</p>
             <p><a href="mailto:patricktchoupe@protonmail.com" className="btn btn-primary">Contact Us Now</a></p>
           </div>
         </div>
