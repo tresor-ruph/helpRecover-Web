@@ -19,16 +19,18 @@ export default function Login() {
     console.log(password);
     fetch(
       `https://help-recover-api.herokuapp.com/contacts/${username}/${password}`
-     
     )
-      .then((response) => response.json)
+      .then((response) => response.json())
       .then((json) => {
-        console.log(json);
+        console.log(json)
+if(json.message == 'true'){
+  localStorage.setItem('login', true);
+  window.location.replace("/dashboard");
+}
       })
       .catch((err) => {
         console.log(err);
       });
-    console.log("ah");
   };
   return (
     <div>
