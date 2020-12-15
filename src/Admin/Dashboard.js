@@ -12,32 +12,36 @@ export default function Dashboard() {
 	  	</div>
   	<div className="main-body-content w-100 ets-pt">
   		<div className="table-responsive bg-light">
-  			<table className="table">
-  				<tr>
-  					<th>Name</th>
-  					<th>Informations sur l'utilisateur signalé</th>
-  					<th>Motif du signalement</th>
-  					<th>Preuves</th>
-  				</tr>
-  				<tr>
-  					<td>Vinay</td>
-  					<td>Sharma</td>
-  					<td>lorem ipssum dollor dummy</td>
-  					<td>lorem ipssum dollor dummy</td>
-  				</tr>
-  				<tr>
-  					<td>Vinay</td>
-  					<td>Sharma</td>
-  					<td>lorem ipssum dollor dummy</td>
-  					<td>lorem ipssum dollor dummy</td>
-  				</tr>
-  				<tr>
-  					<td>Vinay</td>
-  					<td>Sharma</td>
-  					<td>lorem ipssum dollor dummy</td>
-  					<td>lorem ipssum dollor dummy</td>
-  				</tr>
-  			</table>
+		  <table class="table table-striped table-bordered">
+			<thead class="thead-dark" >
+				<tr>
+				<th scope="col">#</th>
+				<th scope="col">Utilisateur signalé</th>
+				<th scope="col">Description</th>
+				<th scope="col">Preuves</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+				<th scope="row">1</th>
+				<td>Mark</td>
+				<td>Otto</td>
+				<td>@mdo</td>
+				</tr>
+				<tr>
+				<th scope="row">2</th>
+				<td>Jacob</td>
+				<td>Thornton</td>
+				<td>@fat</td>
+				</tr>
+				<tr>
+				<th scope="row">3</th>
+				<td>Larry</td>
+				<td>the Bird</td>
+				<td>@twitter</td>
+				</tr>
+			</tbody>
+		</table>
   		</div>
   	</div>
 </div>
