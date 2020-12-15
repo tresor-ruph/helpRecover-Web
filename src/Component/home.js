@@ -1,9 +1,8 @@
-import React, { Component } from "react";
+import React from "react";
 import {FaHandsHelping} from "react-icons/fa";
+import { Link, Redirect, withRouter,Switch,BrowserRouter as Router,Route } from "react-router-dom";
 
-class Home extends Component{
-
-    render(){
+function Home() {
         return(
             <div className="site-wrap" id="home-section">
 
@@ -74,7 +73,7 @@ class Home extends Component{
 
           </div>
           <div className="col-lg-5 ml-auto pl-lg-5 text-center">
-            <h2 className="text-red text-center">Notre soltuion</h2>
+            <h2 className="text-red text-center">Notre solution</h2>
             <p className="mb-5 lead" style={{ fontFamily: 'revert', textAlign: 'justify'}}>Nous vous mettons en contact avec des personnes vérifiées de votre entourage qui sont prêts à vous aider.  Ensuite, nous veillons à ce que tous les deux, vous soyez assurés et que tout se passe bien.<br></br>
             <br></br>En plus de son volet humanitaire, nous vous permettons de garder un contact avec vos êtres chers au moyen de discussions privées et de groupes de discussion.
             </p>
@@ -209,7 +208,7 @@ class Home extends Component{
 <br></br>Nous préférons être contactés par email, afin d’être en mesure de traiter chaque question du mieux possible.<br></br>
 
 N’hésitez pas à nous contacter aux heures de bureau.</p>
-            <p><a href="mailto:patricktchoupe@protonmail.com" className="btn btn-primary">Contact Us Now</a></p>
+            <p><a href="mailto:HelpRecover2020@gmail.com" className="btn btn-primary">Contact Us Now</a></p>
           </div>
         </div>
       </div>
@@ -221,8 +220,9 @@ N’hésitez pas à nous contacter aux heures de bureau.</p>
       <div className="container">
       <div class="row pt-2 mt-2 text-center">
           <p>
-          <a href="https://github.com/tresor-ruph/projet-Integration/wiki/Aspects-s%C3%A9curit%C3%A9">Politique de confidentialité </a>
-          <a href="https://github.com/tresor-ruph/projet-Integration/wiki/Aspect-juridique">Termes et conditions</a>
+          <a href="https://github.com/tresor-ruph/projet-Integration/wiki/Aspects-s%C3%A9curit%C3%A9">Politique de confidentialité </a><br></br>
+          <a href="https://github.com/tresor-ruph/projet-Integration/wiki/Aspect-juridique">Termes et conditions</a><br></br>
+          <Link to="/adminLogin">Espace administrateur</Link>
           </p>
       </div>
         <div className="row pt-2 mt-2 text-center">
@@ -237,7 +237,6 @@ N’hésitez pas à nous contacter aux heures de bureau.</p>
 
     </div>
         )
-}
 }
 
 export default Home;

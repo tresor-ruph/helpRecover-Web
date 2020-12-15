@@ -3,12 +3,3 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
-.footer {
-  background-color: #56b6f7;
-}
-
-.footer > .container {
-  padding-right: 15px;
-  padding-left: 15px;
-}
