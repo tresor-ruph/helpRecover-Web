@@ -6,7 +6,6 @@ export default function Dashboard() {
 	  	<div className="side-bar">
 	  		<div className="side-bar-links">
 	  			<div className="side-bar-logo text-center py-3">
-	  				<img src="" className="img-fluid rounded-circle border bg-secoundry mb-3" />
 	  				<h3>HELP RECOVER ADMIN PANNEL</h3>
 	  			</div>
 	  		</div>

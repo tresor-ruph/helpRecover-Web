@@ -20,8 +20,8 @@ export default function Login() {
           </div>
 
           <form onSubmit={handleSubmit}>
-            <input type="text" id="login" className="fadeIn second" name="login" placeholder="Login" />
-            <input type="password" id="password" className="fadeIn third" name="login" placeholder="Password" />
+            <input type="text" id="login" className="fadeIn second" name="login" placeholder="Identifiant" />
+            <input type="password" id="password" className="fadeIn third" name="login" placeholder="Mot de passe" />
             <Link to="/dashboard"><input type="submit" id="modifier" className="fadeIn fourth" value="Se connecter" /></Link>
           </form>
       </div>
