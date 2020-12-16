@@ -115,7 +115,7 @@ function Home() {
               <div className="post-entry-1-contents">
                 <span className="meta">Scrum master</span>
                 <h2>Tresor Tekadam</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, sapiente.</p>
+                <p>On espère que cette appli vous sera utilsée en ces temps difficiles</p>
               </div>
             </div>
           </div>
@@ -143,7 +143,7 @@ function Home() {
               <div className="post-entry-1-contents">
                 <span className="meta">Team member</span>
                 <h2>Joachim Sanglier </h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, sapiente.</p>
+                <p>Super projet basé sur des valeurs importantes</p>
               </div>
             </div>
           </div>
@@ -157,7 +157,7 @@ function Home() {
               <div className="post-entry-1-contents">
                 <span className="meta">Team member</span>
                 <h2>Florian Degives </h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, sapiente.</p>
+                <p>C'est un plaisir de participer à un projet basé sur l'entraide.</p>
               </div>
             </div>
           </div>
@@ -171,7 +171,7 @@ function Home() {
               <div className="post-entry-1-contents">
                 <span className="meta">Team member</span>
                 <h2>Martin Perdaens</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, sapiente.</p>
+                <p>ça été une chouette expérience de développer un tel projet</p>
               </div>
             </div>
           </div>
@@ -185,7 +185,7 @@ function Home() {
               <div className="post-entry-1-contents">
                 <span className="meta">Team member</span>
                 <h2>Sebastien Fantuzzi</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, sapiente.</p>
+                <p>Content d'avoir participé à ce très beau projet </p>
               </div>
             </div>
           </div>
