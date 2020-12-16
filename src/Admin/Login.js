@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 import "./login.css";
 import { RiAdminFill } from "react-icons/ri";
 import { Link, Redirect } from "react-router-dom";
-import ls from 'local-storage'
+import ls from "local-storage";
 // import axios from "axios";
 export default function Login() {
   const [username, setUsername] = useState("");
@@ -23,11 +23,9 @@ export default function Login() {
     )
       .then((response) => response.json())
       .then((json) => {
-        console.log(json)
-if(json.message == 'true'){
-  ls.setItem('login', true);
-  window.location.replace("/dashboard");
-}
+        console.log(json);
+
+        window.location.replace("/dashboard");
       })
       .catch((err) => {
         console.log(err);
