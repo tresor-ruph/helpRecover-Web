@@ -96,7 +96,7 @@ function Home() {
           <div className="col-lg-4 col-md-6 mb-5">
             <div className="post-entry-1 h-100 person-1">
               
-                <img src="http://ssl.gstatic.com/accounts/ui/avatar_2x.png" alt="Image6"
+                <img src="https://image.freepik.com/vecteurs-libre/jeune-homme-avatar-dessin-anime-personnage-photo-profil_18591-55058.jpg" alt="Image6"
                  className="img-fluid" />
             
               <div className="post-entry-1-contents">
@@ -109,7 +109,7 @@ function Home() {
           <div className="col-lg-4 col-md-6 mb-5">
             <div className="post-entry-1 h-100 person-1">
               
-                <img src="http://ssl.gstatic.com/accounts/ui/avatar_2x.png" alt="Image5"
+                <img src="https://us.123rf.com/450wm/dreamsvector/dreamsvector1710/dreamsvector171000223/87280917-jeune-afro-homme-avatar-.jpg?ver=6" alt="Image5"
                  className="img-fluid" />
             
               <div className="post-entry-1-contents">
@@ -123,12 +123,12 @@ function Home() {
           <div className="col-lg-4 col-md-6 mb-5">
             <div className="post-entry-1 h-100 person-1">
               
-                <img src="http://ssl.gstatic.com/accounts/ui/avatar_2x.png" alt="Image1"
+                <img src="https://www.web-soluces.net/webmaster/avatar/AvatarMakerCom-Garcon.png" alt="Image1"
                  className="img-fluid" />
             
               <div className="post-entry-1-contents">
                 <span className="meta">Scrum master</span>
-                <h2>Bilel Bouqouyoue</h2>
+                <h2>Bilel Bouquoyoue</h2>
                 <p>Ce projet a pour point central l'entraide, le plus important c'est vous !</p>
               </div>
             </div>
@@ -137,12 +137,12 @@ function Home() {
           <div className="col-lg-4 col-md-6 mb-5">
             <div className="post-entry-1 h-100 person-1">
               
-                <img src="http://ssl.gstatic.com/accounts/ui/avatar_2x.png" alt="Image2"
+                <img src="https://media.gettyimages.com/vectors/man-portrait-face-icon-web-avatar-flat-style-vector-vector-id641304260" alt="Image2"
                  className="img-fluid" />
             
               <div className="post-entry-1-contents">
                 <span className="meta">Team member</span>
-                <h2>Sanglier Joachim</h2>
+                <h2>Joachim Sanglier </h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, sapiente.</p>
               </div>
             </div>
@@ -151,12 +151,12 @@ function Home() {
           <div className="col-lg-4 col-md-6 mb-5">
             <div className="post-entry-1 h-100 person-1">
               
-                <img src='http://ssl.gstatic.com/accounts/ui/avatar_2x.png' alt="Image3"
+                <img src='https://media.gettyimages.com/vectors/man-portrait-face-icon-web-avatar-flat-style-vector-vector-id641304260' alt="Image3"
                  className="img-fluid" />
             
               <div className="post-entry-1-contents">
                 <span className="meta">Team member</span>
-                <h2>Degives Florian</h2>
+                <h2>Florian Degives </h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, sapiente.</p>
               </div>
             </div>
@@ -165,7 +165,7 @@ function Home() {
           <div className="col-lg-4 col-md-6 mb-5">
             <div className="post-entry-1 h-100 person-1">
               
-                <img src='http://ssl.gstatic.com/accounts/ui/avatar_2x.png' alt="Image3"
+                <img src='https://media.gettyimages.com/vectors/man-portrait-face-icon-web-avatar-flat-style-vector-vector-id641304260' alt="Image3"
                  className="img-fluid" />
             
               <div className="post-entry-1-contents">
@@ -179,7 +179,7 @@ function Home() {
           <div className="col-lg-4 col-md-6 mb-5">
             <div className="post-entry-1 h-100 person-1">
               
-                <img src="http://ssl.gstatic.com/accounts/ui/avatar_2x.png" alt="Image4"
+                <img src="https://cdn.pixabay.com/photo/2013/07/13/10/07/man-156584_960_720.png" alt="Image4"
                  className="img-fluid" />
             
               <div className="post-entry-1-contents">
