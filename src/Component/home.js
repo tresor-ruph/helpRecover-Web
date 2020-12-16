@@ -115,7 +115,7 @@ function Home() {
               <div className="post-entry-1-contents">
                 <span className="meta">Scrum master</span>
                 <h2>Tresor Tekadam</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, sapiente.</p>
+                <p>On espère que cette appli vous sera utilsée en ces temps difficiles</p>
               </div>
             </div>
           </div>
