@@ -24,7 +24,6 @@ export default function Dashboard() {
     })
       .then((response) => response.json())
       .then((json) => {
-        console.log(json);
         window.location.replace("/dashboard");
       })
       .catch((err) => {
@@ -36,7 +35,6 @@ export default function Dashboard() {
     fetch(`https://help-recover-api.herokuapp.com/service/getService/`)
       .then((response) => response.json())
       .then((json) => {
-        console.log(json);
         setValues(json);
       })
       .catch((err) => console.log(err));

@@ -35,7 +35,7 @@ function Home() {
 
               <nav className="site-navigation text-right ml-auto d-none d-lg-block" role="navigation">
                 <ul className="site-menu main-menu js-clone-nav ml-auto ">
-                  <li><a href="#team" className="nav-link">Equipe</a></li>
+                  <li><a href="#team" className="nav-link">Equipe </a></li>
                   <li><a href="#contactUs" className="nav-link">Contact</a></li>
                 </ul>
               </nav>
