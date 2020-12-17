@@ -77,7 +77,7 @@ function Home() {
             <p className="mb-5 lead" style={{ fontFamily: 'revert', textAlign: 'justify'}}>Nous vous mettons en contact avec des personnes vérifiées de votre entourage qui sont prêts à vous aider.  Ensuite, nous veillons à ce que tous les deux, vous soyez assurés et que tout se passe bien.<br></br>
             <br></br>En plus de son volet humanitaire, nous vous permettons de garder un contact avec vos êtres chers au moyen de discussions privées et de groupes de discussion.
             </p>
-            <p><a href="https://www.dropbox.com/s/4etblliogcqi319/app-release.apk?dl=0" className="btn btn-primary">Download the App</a></p>
+            <p><a href="https://www.dropbox.com/s/4etblliogcqi319/app-release.apk?dl=0" className="btn btn-primary">Télécharger l'application</a></p>
           </div>
         </div>
       </div>
