@@ -35,7 +35,7 @@ function Home() {
 
               <nav className="site-navigation text-right ml-auto d-none d-lg-block" role="navigation">
                 <ul className="site-menu main-menu js-clone-nav ml-auto ">
-                  <li><a href="#team" className="nav-link">Team</a></li>
+                  <li><a href="#team" className="nav-link">Equipe</a></li>
                   <li><a href="#contactUs" className="nav-link">Contact</a></li>
                 </ul>
               </nav>
@@ -208,7 +208,7 @@ function Home() {
 <br></br>Nous préférons être contactés par email, afin d’être en mesure de traiter chaque question du mieux possible.<br></br>
 
 N’hésitez pas à nous contacter aux heures de bureau.</p>
-            <p><a href="mailto:HelpRecover2020@gmail.com" className="btn btn-primary">Contact Us Now</a></p>
+            <p><a href="mailto:HelpRecover2020@gmail.com" className="btn btn-primary">Nous contacter</a></p>
           </div>
         </div>
       </div>
@@ -228,7 +228,7 @@ N’hésitez pas à nous contacter aux heures de bureau.</p>
         <div className="row pt-2 mt-2 text-center">
             <div>
               <p>
-            Copyright &copy; {new Date().getFullYear()} Help Recover all rights reserved | This site is made with <i className="icon-heart text-danger" aria-hidden="true"></i> by <a href="https://github.com/tresor-ruph/projet-Integration" target="_blank" >Group 4</a>
+            Copyright &copy; {new Date().getFullYear()} Help Recover tous droits réservés | Ce site a été conçu avec <i className="icon-heart text-danger" aria-hidden="true"></i> par <a href="https://github.com/tresor-ruph/projet-Integration" target="_blank" >Groupe 4</a>
             </p>
             </div>
         </div>
