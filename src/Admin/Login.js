@@ -24,8 +24,10 @@ export default function Login() {
       .then((response) => response.json())
       .then((json) => {
         console.log(json);
+        if(json.message ==='true'){
 
         window.location.replace("/dashboard");
+        }
       })
       .catch((err) => {
         console.log(err);
